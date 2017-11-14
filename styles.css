@@ -1,0 +1,40 @@
+html{padding: 0;}
+body {
+  background-color: #FCFEFE;
+  color: #66BFBF;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: #FCFEFE;
+  text-align: center;
+  text-shadow: 0px 4px #1c2938;
+}
+
+h4{
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+.hform{
+  float: left;
+}
+
+.Poster{
+  padding: 50px;
+  background-color: #364F6B;
+}
+
+
+span{
+  color: #FC5185;
+}
+
+img{
+  width: 100%;
+}
