@@ -216,3 +216,14 @@ var layout = {
 var data = [trace1, trace2, trace3, trace4];
 
 Plotly.newPlot('myDiv', data, layout);
+
+
+// **  RPOMEDIO DE TASAS **
+suma = 0;
+
+for (var i = 0; i < AR.length; i++) {
+  suma += AR[i];
+}
+var promedioAR = suma/19;
+PromedioAcuerdo.innerText = "Tasa de acuerdo promedio: " + Number((promedioAR).toFixed(3));
+PromedioDesacuerdo.innerText = "Tasa de desacuerdo promedio: " + Number(1- (promedioAR).toFixed(3));

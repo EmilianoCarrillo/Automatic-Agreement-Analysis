@@ -38,3 +38,22 @@ span{
 img{
   width: 100%;
 }
+
+#PromedioAcuerdo{
+  margin: 0 0px 5px 30px;
+  color: #23ab74;
+}
+
+#PromedioDesacuerdo{
+  margin: 0 0px 5px 30px;
+  color: #f44a46;
+}
+
+#PromedioDiferenciaTiempo {
+  margin: 0 0px 5px 30px;
+  color: #76d2f5;
+}
+
+.ideales {
+  width: 50%;
+}
